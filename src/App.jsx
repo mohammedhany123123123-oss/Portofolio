@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
 import Aboutme from "./Components/Aboutme/Aboutme";
-import MySkills from "./Components/Myskills/Temp";
+import MySkills from "./Components/Myskills/MySkills";
 import Myprojects from "./Components/Myprojects/Myprojects";
 import Contactme from "./Components/Contactme/Contactme";
 import { Routes, Route } from "react-router-dom";
