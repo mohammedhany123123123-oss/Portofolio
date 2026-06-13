@@ -1,0 +1,56 @@
+/* Navbar main styling */
+.custom-navbar {
+  backdrop-filter: blur(8px);
+  padding: 12px 20px;
+  transition: 0.3s;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* Light Mode */
+.light {
+  background: rgba(255, 255, 255, 0.934) !important;
+}
+
+.light .nav-link,
+.light .navbar-brand {
+  color: #000 !important;
+}
+
+.light .nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Dark Mode */
+.dark {
+  background: rgb(7, 4, 4) !important;
+}
+
+.dark .nav-link,
+.dark .navbar-brand {
+  color: #fff !important;
+}
+
+.dark .nav-link:hover {
+  color: #0dcaf0 !important;
+}
+
+/* Active Link */
+.active-link {
+  font-weight: bold;
+  color: #0dcaf0 !important;
+}
+
+/* Icons inside navbar links */
+.nav-icon {
+  margin-right: 7px;
+  transform: translateY(-1px);
+}
+
+/* Hover animation */
+.nav-link {
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+}
