@@ -58,7 +58,7 @@
 }
 
 .contact-btn-container {
-  margin-top: 20px; Reduced from 30px
+  margin-top: 20px; /* Reduced from 30px */
 }
 
 .contact-btn {
