@@ -1,5 +1,5 @@
 import React from "react";
-import "./MySkills.css";
+import "./Myskills.css";
 
 // Component for a single skill card
 const SkillCard = ({ skill, color }) => (
